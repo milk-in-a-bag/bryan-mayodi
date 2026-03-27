@@ -313,10 +313,10 @@ export function ContactSection() {
                     Email
                   </p>
                   <a
-                    href="mailto:alex@alexchen.dev"
+                    href="bryanmayodi@gmail.com"
                     className="font-body text-sm text-slate-300 hover:text-neon-purple transition-colors"
                   >
-                    alex@alexchen.dev
+                    bryanmayodi@gmail.com
                   </a>
                 </div>
               </div>

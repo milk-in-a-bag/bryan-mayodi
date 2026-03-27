@@ -104,7 +104,7 @@ export function HeroSection() {
           variants={fadeUp}
           className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-4 leading-[1.05]"
         >
-          <span className="gradient-text">Alex Chen</span>
+          <span className="gradient-text">Bryan Mayodi</span>
         </motion.h1>
 
         <motion.div

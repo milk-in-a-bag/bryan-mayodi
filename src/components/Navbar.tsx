@@ -86,7 +86,7 @@ export function Navbar() {
               onClick={(e) => handleNavClick(e, "#home")}
               className="font-heading text-lg font-bold tracking-tight text-slate-50 hover:text-neon-purple transition-colors"
             >
-              alex<span className="text-neon-purple">.</span>chen
+              bryan<span className="text-neon-purple">.</span>mayodi
             </a>
 
             {/* Desktop nav */}
