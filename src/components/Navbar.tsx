@@ -78,7 +78,19 @@ export function Navbar() {
       >
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div
-            className={`flex items-center justify-between rounded-2xl px-6 py-3 transition-all duration-500 ${isScrolled ? "glass-strong shadow-lg shadow-black/20" : ""}`}
+            className={`flex items-center justify-between rounded-2xl px-6 py-3 transition-all duration-500 ${isScrolled ? "shadow-lg shadow-black/20" : ""}`}
+            style={
+              isScrolled
+                ? {
+                    background: "rgba(255, 255, 255, 0.08)",
+                    backdropFilter: "blur(30px)",
+                    WebkitBackdropFilter: "blur(30px)",
+                    border: "1px solid rgba(255, 255, 255, 0.12)",
+                  }
+                : {
+                    border: "1px solid transparent",
+                  }
+            }
           >
             {/* Logo */}
             <a

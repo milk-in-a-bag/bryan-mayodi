@@ -152,7 +152,7 @@ export function AboutSection() {
             }}
             className="space-y-5"
           >
-            <p className="font-body text-base sm:text-lg text-slate-300 leading-relaxed">
+            <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
               I'm a fullstack developer with a deep love for crafting digital
               experiences that feel intuitive and alive. With over 5 years of
               experience shipping products across startups and agencies, I've
