@@ -330,7 +330,7 @@ export function ContactSection() {
                     Location
                   </p>
                   <p className="font-body text-sm text-slate-300">
-                    San Francisco, CA
+                    Nairobi, Kenya
                   </p>
                 </div>
               </div>

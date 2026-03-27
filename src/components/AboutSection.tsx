@@ -163,10 +163,10 @@ export function AboutSection() {
               .
             </p>
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              My sweet spot is the intersection of design and engineering —
-              where pixel-perfect interfaces meet robust, scalable
-              architectures. I believe the best products are built when you care
-              equally about how something looks and how it works under the hood.
+              My sweet spot is the intersection of design and engineering, where
+              pixel-perfect interfaces meet robust, scalable architectures. I
+              believe the best products are built when you care equally about
+              how something looks and how it works under the hood.
             </p>
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
               When I'm not coding, you'll find me exploring generative art,
