@@ -1,6 +1,6 @@
-import React, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { motion } from "framer-motion";
-import { SendIcon, MailIcon, MapPinIcon } from "lucide-react";
+import { SendIcon, MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 import {
   FaGithub as GithubIcon,
   FaLinkedin as LinkedinIcon,
@@ -313,10 +313,27 @@ export function ContactSection() {
                     Email
                   </p>
                   <a
-                    href="bryanmayodi@gmail.com"
+                    href="mailto:bryanmayodi@gmail.com"
                     className="font-body text-sm text-slate-300 hover:text-neon-purple transition-colors"
                   >
                     bryanmayodi@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <div className="flex items-center justify-center w-10 h-10 rounded-lg glass">
+                  <PhoneIcon className="w-4 h-4 text-neon-teal" />
+                </div>
+                <div>
+                  <p className="font-body text-xs text-slate-500 uppercase tracking-wider">
+                    Phone
+                  </p>
+                  <a
+                    href="tel:+254115622928"
+                    className="font-body text-sm text-slate-300 hover:text-neon-purple transition-colors"
+                  >
+                    +254 115 622 928
                   </a>
                 </div>
               </div>
@@ -341,17 +358,20 @@ export function ContactSection() {
                 Connect
               </p>
               <div className="flex items-center gap-3">
-                <SocialButton href="https://github.com" label="GitHub profile">
+                <SocialButton
+                  href="https://github.com/milk-in-a-bag"
+                  label="GitHub profile"
+                >
                   <GithubIcon className="w-5 h-5" />
                 </SocialButton>
                 <SocialButton
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/bryan-mayodi-a47353220/"
                   label="LinkedIn profile"
                 >
                   <LinkedinIcon className="w-5 h-5" />
                 </SocialButton>
                 <SocialButton
-                  href="https://twitter.com"
+                  href="https://x.com/carreymayodi"
                   label="Twitter profile"
                 >
                   <TwitterIcon className="w-5 h-5" />

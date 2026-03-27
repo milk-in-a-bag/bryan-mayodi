@@ -135,41 +135,31 @@ export function ExperienceSection() {
             <TimelineItem
               index={0}
               entry={{
-                role: "Senior Fullstack Engineer",
-                company: "Vercel",
-                period: "2023 — Present",
+                role: "Fullstack Engineer",
+                company: "DigitalQatalyst",
+                period: "August 2025 — Present",
                 description:
-                  "Leading frontend architecture for the dashboard team. Building performant, accessible interfaces used by millions of developers worldwide.",
+                  "Built and maintained full-stack applications using React, Next.js, TypeScript, and Supabase. Integrated Microsoft Dataverse CRM, Power Apps, and Power Pages to streamline business processes and improve system reliability.",
               }}
             />
             <TimelineItem
               index={1}
               entry={{
-                role: "Fullstack Developer",
-                company: "Stripe",
-                period: "2021 — 2023",
+                role: "Intern",
+                company: "Senate of Kenya",
+                period: "January 2025 — July 2025",
                 description:
-                  "Built and maintained payment processing UIs and internal tools. Reduced checkout latency by 40% through strategic code splitting and caching.",
+                  "Designed and developed an internal web portal for document management at the Senate Journals Office. Conducted research on socio-economic topics and drafted committee reports to support legislative processes.",
               }}
             />
             <TimelineItem
               index={2}
               entry={{
-                role: "Frontend Engineer",
-                company: "Linear",
-                period: "2020 — 2021",
+                role: "Intern",
+                company: "Qalibrated Systems",
+                period: "May 2024 — October 2024",
                 description:
-                  "Developed core product features including the command palette, keyboard navigation system, and real-time collaboration features.",
-              }}
-            />
-            <TimelineItem
-              index={3}
-              entry={{
-                role: "Junior Developer",
-                company: "Freelance",
-                period: "2018 — 2020",
-                description:
-                  "Designed and built web applications for startups and small businesses. Developed a strong foundation in React, Node.js, and modern CSS.",
+                  "Enhanced and maintained calibration management software, improving application efficiency. Worked with Linux and command-line utilities to manage and deploy applications.",
               }}
             />
           </div>

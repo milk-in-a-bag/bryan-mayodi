@@ -28,7 +28,7 @@ export function ProjectsSection() {
           ref={ref}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          {/* Project 1: CloudSync Dashboard */}
+          {/* Project 1: Online Gallery */}
           <motion.div
             custom={0}
             variants={fadeUp}
@@ -45,49 +45,51 @@ export function ProjectsSection() {
                   }}
                 >
                   <span className="font-heading text-2xl font-bold text-white/60">
-                    CS
+                    EV
                   </span>
                 </div>
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
-                  CloudSync Dashboard
+                  Elara Voss' Online Gallery
                 </h3>
                 <p className="font-body text-sm text-slate-400 mb-4 leading-relaxed">
-                  Real-time cloud infrastructure monitoring dashboard with live
-                  metrics, alerting, and team collaboration features.
+                  A sophisticated online art gallery and e-commerce platform
+                  showcasing contemporary art. Features a curated collection
+                  with detailed artwork pages, shopping cart functionality, and
+                  a multi-step checkout process.
                 </p>
                 <div className="flex flex-wrap gap-1.5 mb-5">
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-blue/10 text-blue-300 border border-neon-blue/20">
                     React
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-teal/10 text-teal-300 border border-neon-teal/20">
-                    Node.js
+                    TypeScript
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-purple/10 text-purple-300 border border-neon-purple/20">
-                    WebSocket
+                    TailwindCSS
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-blue/10 text-blue-300 border border-neon-blue/20">
-                    D3.js
+                    Radix UI
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/milk-in-a-bag/online-gallery"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors"
-                    aria-label="View CloudSync Dashboard on GitHub"
+                    aria-label="Online gallery on GitHub"
                   >
                     <GithubIcon className="w-4 h-4" />
                     Code
                   </a>
                   <a
-                    href="https://example.com"
+                    href="https://online-gallery-mbls.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
-                    aria-label="View CloudSync Dashboard live demo"
+                    aria-label="Online gallery live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />
                     Live
@@ -97,7 +99,7 @@ export function ProjectsSection() {
             </GlowCard>
           </motion.div>
 
-          {/* Project 2: Neural Canvas */}
+          {/* Project 2: Multi-tenant SaaS Backend */}
           <motion.div
             custom={1}
             variants={fadeUp}
@@ -114,49 +116,51 @@ export function ProjectsSection() {
                   }}
                 >
                   <span className="font-heading text-2xl font-bold text-white/60">
-                    NC
+                    SB
                   </span>
                 </div>
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
-                  Neural Canvas
+                  Multi-tenant SaaS Backend
                 </h3>
                 <p className="font-body text-sm text-slate-400 mb-4 leading-relaxed">
-                  AI-powered generative art platform where users create unique
-                  artworks through natural language prompts and style mixing.
+                  A production-ready Django starter kit for building
+                  multi-tenant SaaS products. Features tenant isolation, JWT and
+                  API keyauthentication, role-based access control, rate
+                  limiting, audit logging, and a resource scaffolding CLI.
                 </p>
                 <div className="flex flex-wrap gap-1.5 mb-5">
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-teal/10 text-teal-300 border border-neon-teal/20">
-                    Python
+                    Django
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-blue/10 text-blue-300 border border-neon-blue/20">
-                    Next.js
+                    Django REST
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-purple/10 text-purple-300 border border-neon-purple/20">
-                    TensorFlow
+                    PostgreSQL
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-teal/10 text-teal-300 border border-neon-teal/20">
-                    PostgreSQL
+                    JWT
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/milk-in-a-bag/multi-tenant-saas-backend"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors"
-                    aria-label="View Neural Canvas on GitHub"
+                    aria-label="Multi-tenant SaaS  on GitHub"
                   >
                     <GithubIcon className="w-4 h-4" />
                     Code
                   </a>
                   <a
-                    href="https://example.com"
+                    href="https://multi-tenant-saas-backend.vercel.app/api/docs/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
-                    aria-label="View Neural Canvas live demo"
+                    aria-label="Multi-tenant SaaS live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />
                     Live
@@ -166,7 +170,7 @@ export function ProjectsSection() {
             </GlowCard>
           </motion.div>
 
-          {/* Project 3: DevFlow CLI */}
+          {/* Project 3: Sample Dashboard */}
           <motion.div
             custom={2}
             variants={fadeUp}
@@ -183,49 +187,48 @@ export function ProjectsSection() {
                   }}
                 >
                   <span className="font-heading text-2xl font-bold text-white/60">
-                    DF
+                    SD
                   </span>
                 </div>
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
-                  DevFlow CLI
+                  Sample Dashboard
                 </h3>
                 <p className="font-body text-sm text-slate-400 mb-4 leading-relaxed">
-                  Developer productivity CLI tool that automates project
-                  scaffolding, deployment pipelines, and environment management.
+                  About A React frontend built to test and demonstrate the
+                  multi-tenant SaaS backend. The backend is hosted separately,
+                  this UI exists purely to exercise its API endpoints and verify
+                  they work correctly.
                 </p>
                 <div className="flex flex-wrap gap-1.5 mb-5">
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-teal/10 text-teal-300 border border-neon-teal/20">
-                    Go
+                    React
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-purple/10 text-purple-300 border border-neon-purple/20">
-                    Docker
+                    TypeScript
                   </span>
                   <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-blue/10 text-blue-300 border border-neon-blue/20">
-                    AWS SDK
-                  </span>
-                  <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-neon-purple/10 text-purple-300 border border-neon-purple/20">
-                    GitHub API
+                    TailwindCSS
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/milk-in-a-bag/sample-dashboard"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors"
-                    aria-label="View DevFlow CLI on GitHub"
+                    aria-label="Sample dashboard on GitHub"
                   >
                     <GithubIcon className="w-4 h-4" />
                     Code
                   </a>
                   <a
-                    href="https://example.com"
+                    href="https://sample-dashboard-zeta.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
-                    aria-label="View DevFlow CLI live demo"
+                    aria-label="Sample dashboard live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />
                     Live
