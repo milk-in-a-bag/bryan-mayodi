@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 interface SectionHeadingProps {
@@ -65,7 +64,7 @@ export function SectionHeading({ label, title, id }: SectionHeadingProps) {
         transition={{
           duration: 0.6,
           delay: 0.3,
-          ease: [0.22, 1, 0.36, 1],
+          ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
         }}
         className="mt-4 mx-auto h-1 w-20 rounded-full origin-left"
         style={{

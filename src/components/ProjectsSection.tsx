@@ -1,30 +1,19 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLinkIcon } from "lucide-react";
 import { FaGithub as GithubIcon } from "react-icons/fa";
 import { SectionHeading } from "./SectionHeading";
 import { GlowCard } from "./GlowCard";
 import { useScrollReveal } from "../hooks/useScrollReveal";
-interface Project {
-  title: string;
-  description: string;
-  tags: string[];
-  gradient: string;
-  githubUrl: string;
-  liveUrl: string;
-}
+
 const fadeUp = {
-  hidden: {
-    opacity: 0,
-    y: 40,
-  },
+  hidden: { opacity: 0, y: 40 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.6,
       delay: i * 0.15,
-      ease: [0.22, 1, 0.36, 1],
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
     },
   }),
 };

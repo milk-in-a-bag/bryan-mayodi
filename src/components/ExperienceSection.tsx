@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { SectionHeading } from "./SectionHeading";
 import { useScrollReveal } from "../hooks/useScrollReveal";
@@ -40,7 +39,7 @@ function TimelineItem({
         }
         transition={{
           duration: 0.6,
-          ease: [0.22, 1, 0.36, 1],
+          ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
         }}
         className={`flex-1 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-12 md:text-right" : "md:pl-12 md:text-left"}`}
       >
