@@ -7,7 +7,7 @@ import { ExperienceSection } from "./components/ExperienceSection";
 import { ContactSection } from "./components/ContactSection";
 export function App() {
   return (
-    <div className="relative min-h-screen w-full bg-deep text-slate-50 font-body">
+    <div className="relative min-h-screen w-full overflow-x-hidden max-w-[100vw] bg-deep text-slate-50 font-body">
       <ParticleBackground />
       <Navbar />
 
