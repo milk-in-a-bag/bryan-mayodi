@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDownIcon, ArrowRightIcon } from "lucide-react";
-const ROLES = ["Fullstack Developer", "UI/UX Enthusiast", "Creative Coder"];
+const ROLES = [
+  "Developer by craft",
+  "Problem-solver by instinct",
+  "Systems thinker by purpose",
+];
 function useTypingAnimation(
   words: string[],
   typingSpeed = 80,
@@ -132,19 +136,19 @@ export function HeroSection() {
         >
           <button
             onClick={() => handleScrollTo("projects")}
-            className="group relative inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading text-sm font-semibold text-white overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-neon-purple/25"
+            className="group relative inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading text-sm font-semibold text-white overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-neon-purple/25 cursor-pointer"
             style={{
               background: "linear-gradient(135deg, #a855f7, #3b82f6)",
             }}
           >
             <span className="relative z-10">View My Work</span>
             <ArrowRightIcon className="relative z-10 w-4 h-4 transition-transform group-hover:translate-x-1" />
-            <div className="absolute inset-0 bg-gradient-to-r from-neon-purple-dim to-neon-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-gradient-to-r from-neon-purple-dim to-neon-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300 " />
           </button>
 
           <button
             onClick={() => handleScrollTo("contact")}
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading text-sm font-semibold text-slate-300 glass hover:text-white hover:border-neon-purple/30 transition-all duration-300"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading text-sm font-semibold text-slate-300 glass hover:text-white hover:border-neon-purple/30 transition-all duration-300 cursor-pointer"
           >
             Get In Touch
           </button>

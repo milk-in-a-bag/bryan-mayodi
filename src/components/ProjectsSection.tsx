@@ -88,7 +88,7 @@ export function ProjectsSection() {
                     href="https://online-gallery-mbls.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
+                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-slate-200 transition-colors"
                     aria-label="Online gallery live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />
@@ -159,7 +159,7 @@ export function ProjectsSection() {
                     href="https://multi-tenant-saas-backend.vercel.app/api/docs/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
+                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple hover:text-slate-200 transition-colors"
                     aria-label="Multi-tenant SaaS live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />
@@ -227,7 +227,7 @@ export function ProjectsSection() {
                     href="https://sample-dashboard-zeta.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors"
+                    className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-neon-purple transition-colors hover:text-slate-200"
                     aria-label="Sample dashboard live demo"
                   >
                     <ExternalLinkIcon className="w-4 h-4" />

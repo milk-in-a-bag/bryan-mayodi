@@ -153,26 +153,23 @@ export function AboutSection() {
             className="space-y-5"
           >
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              I'm a fullstack developer with a deep love for crafting digital
-              experiences that feel intuitive and alive. With over 5 years of
-              experience shipping products across startups and agencies, I've
-              developed a keen eye for the details that make software feel{" "}
+              I'm a fullstack developer focused on frontend development and user
+              experience, building interfaces that are clean, responsive, and
+              intuitive backed by structured, scalable systems.
+            </p>
+            <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
+              I primarily work with Django, Django Rest Framework, and React,
+              from APIs to polished UIs. I care about how systems are designed,
+              how data flows, and how everything stays maintainable as it grows.
+            </p>
+            <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
+              I'm drawn to building tools that solve real problems in
+              organizations.{" "}
               <em className="text-slate-100 not-italic font-medium">
-                truly great
+                Things that feel simple on the surface, but are thoughtfully
+                built underneath
               </em>
               .
-            </p>
-            <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              My sweet spot is the intersection of design and engineering, where
-              pixel-perfect interfaces meet robust, scalable architectures. I
-              believe the best products are built when you care equally about
-              how something looks and how it works under the hood.
-            </p>
-            <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              When I'm not coding, you'll find me exploring generative art,
-              contributing to open-source projects, or experimenting with new
-              interaction patterns that push the boundaries of what's possible
-              on the web.
             </p>
           </motion.div>
 
