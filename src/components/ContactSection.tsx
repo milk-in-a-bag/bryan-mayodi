@@ -77,18 +77,35 @@ export function ContactSection() {
       e.preventDefault();
       if (!validate()) return;
       setIsSubmitting(true);
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      setIsSubmitting(false);
-      setSubmitStatus("success");
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-      });
-      setTimeout(() => setSubmitStatus("idle"), 4000);
+      try {
+        const res = await fetch("https://formspree.io/f/xwvwlngk", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            name: form.name,
+            email: form.email,
+            message: form.message,
+          }),
+        });
+        if (res.ok) {
+          setSubmitStatus("success");
+          setForm({ name: "", email: "", message: "" });
+          setTimeout(() => setSubmitStatus("idle"), 4000);
+        } else {
+          setSubmitStatus("error");
+          setTimeout(() => setSubmitStatus("idle"), 4000);
+        }
+      } catch {
+        setSubmitStatus("error");
+        setTimeout(() => setSubmitStatus("idle"), 4000);
+      } finally {
+        setIsSubmitting(false);
+      }
     },
-    [validate],
+    [validate, form],
   );
   const handleChange = (field: keyof FormState, value: string) => {
     setForm((prev) => ({
