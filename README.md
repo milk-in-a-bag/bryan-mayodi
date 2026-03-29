@@ -2,7 +2,7 @@
 
 My personal portfolio website, a fullstack developer focused on frontend development, user experience, and building scalable systems.
 
-Live at: [bryanmayodi.vercel.app](https://bryan-mayodi.vercel.app)
+Live at: [bryan-mayodi.vercel.app](https://bryan-mayodi.vercel.app)
 
 ## Stack
 
