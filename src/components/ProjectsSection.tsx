@@ -196,7 +196,7 @@ export function ProjectsSection() {
                   Sample Dashboard
                 </h3>
                 <p className="font-body text-sm text-slate-400 mb-4 leading-relaxed">
-                  About A React frontend built to test and demonstrate the
+                  A React frontend built to test and demonstrate the
                   multi-tenant SaaS backend. The backend is hosted separately,
                   this UI exists purely to exercise its API endpoints and verify
                   they work correctly.
