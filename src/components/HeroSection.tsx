@@ -126,9 +126,8 @@ export function HeroSection() {
           className="font-body text-base sm:text-lg text-slate-400 max-w-xl mx-auto mb-10 leading-relaxed"
         >
           I turn complex ideas into simple, intuitive products by combining
-          thoughtful design with solid engineering. My approach balances
-          creativity with technical precision, ensuring each product delivers a
-          seamless and meaningful user experience.
+          thoughtful design with solid engineering, ensuring each product
+          delivers a seamless and meaningful user experience.
         </motion.p>
 
         <motion.div
