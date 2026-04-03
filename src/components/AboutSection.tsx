@@ -21,15 +21,7 @@ const SKILL_GROUPS: {
         color: "blue",
       },
       {
-        name: "Next.js",
-        color: "blue",
-      },
-      {
         name: "Tailwind CSS",
-        color: "blue",
-      },
-      {
-        name: "Framer Motion",
         color: "blue",
       },
     ],
@@ -42,19 +34,19 @@ const SKILL_GROUPS: {
         color: "teal",
       },
       {
-        name: "Python",
+        name: "Express.js",
+        color: "teal",
+      },
+      {
+        name: "Next.js",
+        color: "blue",
+      },
+      {
+        name: "Django",
         color: "teal",
       },
       {
         name: "PostgreSQL",
-        color: "teal",
-      },
-      {
-        name: "GraphQL",
-        color: "teal",
-      },
-      {
-        name: "Redis",
         color: "teal",
       },
     ],
@@ -62,6 +54,10 @@ const SKILL_GROUPS: {
   {
     category: "Tools & DevOps",
     skills: [
+      {
+        name: "Figma",
+        color: "purple",
+      },
       {
         name: "Docker",
         color: "purple",
@@ -72,14 +68,6 @@ const SKILL_GROUPS: {
       },
       {
         name: "Git",
-        color: "purple",
-      },
-      {
-        name: "CI/CD",
-        color: "purple",
-      },
-      {
-        name: "Figma",
         color: "purple",
       },
     ],
@@ -153,21 +141,21 @@ export function AboutSection() {
             className="space-y-5"
           >
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              I'm a fullstack developer focused on frontend development and user
-              experience, building interfaces that are clean, responsive, and
-              intuitive backed by structured, scalable systems.
+              I’m a full-stack developer with a strong focus on user experience,
+              crafting interfaces that are clean, responsive, and intuitive,
+              supported by well-structured and scalable backends.
             </p>
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              I primarily work with Django, Django Rest Framework, and React,
-              from APIs to polished UIs. I care about how systems are designed,
-              how data flows, and how everything stays maintainable as it grows.
+              I primarily work with modern JavaScript and Python frameworks,
+              building everything from robust APIs to polished user interfaces.
+              I care deeply about thoughtful system design, efficient data flow,
+              and keeping applications maintainable as they grow.
             </p>
             <p className="font-body text-base sm:text-lg text-slate-400 leading-relaxed">
-              I'm drawn to building tools that solve real problems in
-              organizations.{" "}
+              I’m drawn to building solutions that solve real-world problems,
+              creating experiences that feel{" "}
               <em className="text-slate-100 not-italic font-medium">
-                Things that feel simple on the surface, but are thoughtfully
-                built underneath
+                simple on the surface, but are thoughtfully built underneath
               </em>
               .
             </p>

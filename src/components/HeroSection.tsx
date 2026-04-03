@@ -125,9 +125,8 @@ export function HeroSection() {
           variants={fadeUp}
           className="font-body text-base sm:text-lg text-slate-400 max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          I craft elegant digital experiences at the intersection of design and
-          engineering. Passionate about building products that are beautiful,
-          fast, and accessible.
+          I turn complex ideas into simple, intuitive products, combining
+          thoughtful design with solid engineering.
         </motion.p>
 
         <motion.div
