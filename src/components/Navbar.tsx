@@ -98,7 +98,10 @@ export function Navbar() {
               onClick={(e) => handleNavClick(e, "#home")}
               className="font-heading text-lg font-bold tracking-tight text-slate-50 hover:text-neon-purple transition-colors"
             >
-              bryan<span className="text-neon-purple">.</span>mayodi
+              <span className="hidden sm:inline">
+                bryan<span className="text-neon-purple"></span>mayodi
+              </span>
+              <img src="/favicon.svg" alt="BM" className="sm:hidden w-8 h-8" />
             </a>
 
             {/* Desktop nav */}
