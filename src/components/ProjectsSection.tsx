@@ -3,6 +3,9 @@ import { ExternalLinkIcon } from "lucide-react";
 import { FaGithub as GithubIcon } from "react-icons/fa";
 import { SectionHeading } from "./SectionHeading";
 import { GlowCard } from "./GlowCard";
+import elaraVoss from "../assets/elara-voss.png";
+import saasApi from "../assets/saas-api.png";
+import sampleDashboard from "../assets/sample-dashboard.png";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 
 const fadeUp = {
@@ -37,17 +40,11 @@ export function ProjectsSection() {
           >
             <GlowCard className="h-full">
               <div className="p-1">
-                <div
-                  className="w-full h-44 rounded-xl flex items-center justify-center"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(59, 130, 246, 0.3))",
-                  }}
-                >
-                  <span className="font-heading text-2xl font-bold text-white/60">
-                    EV
-                  </span>
-                </div>
+                <img
+                  src={elaraVoss}
+                  alt="Elara Voss Online Gallery"
+                  className="w-full h-44 rounded-xl object-contain"
+                />
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
@@ -108,17 +105,11 @@ export function ProjectsSection() {
           >
             <GlowCard className="h-full">
               <div className="p-1">
-                <div
-                  className="w-full h-44 rounded-xl flex items-center justify-center"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, rgba(20, 184, 166, 0.3), rgba(168, 85, 247, 0.3))",
-                  }}
-                >
-                  <span className="font-heading text-2xl font-bold text-white/60">
-                    SB
-                  </span>
-                </div>
+                <img
+                  src={saasApi}
+                  alt="Multi-tenant SaaS Backend"
+                  className="w-full h-44 rounded-xl object-contain"
+                />
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
@@ -179,17 +170,11 @@ export function ProjectsSection() {
           >
             <GlowCard className="h-full">
               <div className="p-1">
-                <div
-                  className="w-full h-44 rounded-xl flex items-center justify-center"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(20, 184, 166, 0.3))",
-                  }}
-                >
-                  <span className="font-heading text-2xl font-bold text-white/60">
-                    SD
-                  </span>
-                </div>
+                <img
+                  src={sampleDashboard}
+                  alt="Sample Dashboard"
+                  className="w-full h-44 rounded-xl object-contain"
+                />
               </div>
               <div className="p-5 pt-3">
                 <h3 className="font-heading text-lg font-bold text-slate-50 mb-2">
@@ -242,3 +227,4 @@ export function ProjectsSection() {
     </section>
   );
 }
+
