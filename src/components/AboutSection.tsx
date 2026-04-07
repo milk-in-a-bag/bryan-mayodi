@@ -39,7 +39,7 @@ const SKILL_GROUPS: {
       },
       {
         name: "Next.js",
-        color: "blue",
+        color: "teal",
       },
       {
         name: "Django",
